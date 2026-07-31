@@ -1,8 +1,12 @@
 aid: omnitron-sensors
 name: Omnitron Sensors
-description: Omnitron Sensors is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Omnitron Sensors designs advanced MEMS (micro electro mechanical systems)
+  sensors using innovative 3D manufacturing techniques, aiming to deliver high-performance,
+  low-cost sensing with major gains in precision and reliability. Its technology targets
+  AI data centers, autonomous systems and vehicles, environmental and climate monitoring,
+  and extended reality (XR) devices. Surfaced as a portfolio company of 500 Global and
+  added to the API Evangelist network, the company is a hardware/semiconductor business
+  with no public developer API, SDK, or developer portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/omnitron-sensors/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +14,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/3cp6cJGpyAu6zQAKm1j0Ye4IYM.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- MEMS Sensors
+- Semiconductor
+- Sensor Hardware
+- Autonomous Systems
+- AI Infrastructure
+- Climate Tech
+- Extended Reality
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/omnitron-sensors-domain-security.yml
 - type: Website
-  url: https://omnitronsensors.com
+  url: https://www.omnitronsensors.com
+- type: Blog
+  url: https://www.omnitronsensors.com/news
+- type: Support
+  url: https://www.omnitronsensors.com/contact-us
+- type: TermsOfService
+  url: https://www.omnitronsensors.com/tos
+- type: PrivacyPolicy
+  url: https://www.omnitronsensors.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
